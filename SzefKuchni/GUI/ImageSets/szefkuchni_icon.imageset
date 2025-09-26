@@ -1,0 +1,50 @@
+ImageSetClass {
+ Name "szefkuchni"
+ RefSize 820 200
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{DB0DDBDC232E145E}SzefKuchni/GUI/ImageSets/szef_icon.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass szef_book {
+   Name "szef_book"
+   Pos 28 17
+   Size 100 100
+   Flags 0
+  }
+  ImageSetDefClass szef_sugar {
+   Name "szef_sugar"
+   Pos 166 15
+   Size 100 100
+   Flags 0
+  }
+  ImageSetDefClass szef_ocet {
+   Name "szef_ocet"
+   Pos 277 20
+   Size 100 100
+   Flags 0
+  }
+  ImageSetDefClass szef_stonesalt {
+   Name "szef_stonesalt"
+   Pos 388 21
+   Size 100 100
+   Flags 0
+  }
+  ImageSetDefClass szef_budzik {
+   Name "szef_budzik"
+   Pos 534 22
+   Size 100 100
+   Flags 0
+  }
+  ImageSetDefClass szef_jar {
+   Name "szef_jar"
+   Pos 678 24
+   Size 100 100
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}
