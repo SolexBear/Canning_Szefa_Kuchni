@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<spawnabletypes>
+	<type name="SzefFood_CanEmpty">
+		<damage min="0.0" max="0.0" />
+    </type>
+	<type name="SzefFood_ocet">
+		<damage min="0.0" max="0.0" />
+    </type>
+	<type name="SzefFood_Sugar">
+		<damage min="0.0" max="0.0" />
+    </type>
+</spawnabletypes>
