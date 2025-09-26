@@ -1,0 +1,6 @@
+//<'SK_Bookcook.pbo' properties via Mikero's dos tools, dll version 9.94>
+prefix=SK_Bookcook;
+Mikero=DePbo.dll.9.94;
+version=25092015;
+//PboType=Arma Addon;
+//</properties>

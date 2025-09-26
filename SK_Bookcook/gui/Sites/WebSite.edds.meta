@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DAF7ECA173F8EDF4}DynamicBook/gui/Sites/WebSite.edds"
+ Author "desktop-us9d7v2"
+ ChangeDate 1261515551
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "WebSite.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

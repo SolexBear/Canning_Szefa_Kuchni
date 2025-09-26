@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C0964BF1FDE3DE30}DynamicBook/gui/BookPage.edds"
+ Author "desktop-us9d7v2"
+ ChangeDate -1271893217
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "BookPage.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

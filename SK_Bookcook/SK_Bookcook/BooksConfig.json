@@ -1,0 +1,34 @@
+{
+	"books": {
+		"SK_Bookcook": {
+			"title": "Książka Szefa Kuchni",
+			"links": {
+				"youtube": "",
+				"github": "",
+				"discord": "",
+				"steam": ""
+			},
+			"pages": [
+				"<h1>PRZEPIS NA KONSERWOWANIE MIĘSA</h1> <br/> <h2>Pustą puszkę napełnić solą.</h2><h2>Włożyć do niej surowe mięso tego samego rodzaju w wystarczającej ilości i zamknąć.</h2> <br/> <p>Mięsa nadające się do konserwacji w puszce:</p> \n-  Makrela\n-  Karp\n-  Pstrąg\n-  Mintaj\n-  Sardynki\n-  Królik\n-  Kura\n-  Owca\n-  Krowa\n-  Niedźwiedź\n-  Wilk\n-  Świnia\n-  Koza\n-  Dzik\n-  Jeleń\n-  Renifer\n-  Lis<p>Dodatkowo do puszki z solą można włożyć:</p>\n-  Ziemniaki",
+				"<h1>PRZEPIS NA PRZETWORY OWOCOWE</h1> <br/> <h2>Pustą puszkę napełnić cukrem.</h2><h2>Włożyć do niej świeże owoce tego samego rodzaju i zamknąć.</h2> <br/> <p>Owoce nadające się do przetworzenia:</p> \n-  Śliwki\n-  Gruszki\n-  Jabłka\n-  Dynia",
+				"<h1>PRZEPIS NA MARYNATY W PUSZCE</h1><h2>Pustą puszkę napełnić octem.</h2><h2>Włożyć do niej świeże produkty do marynowania tego samego rodzaju i zamknąć.</h2><p>Produkty nadające się do marynowania:</p>\n-  Pomidory\n-  Papryka  <h1>PRZEPIS NA MARYNATY W SŁOIKACH</h1> <br/> <h2>Pusty słoik napełnić octem.</h2> <h2>Włożyć do niego świeże produkty do marynowania tego samego rodzaju i zamknąć.</h2> <br/> <p>Produkty nadające się do marynowania:</p> <br/>\n-  Cukinia\n-  Papryka\n-  Dynia\n-  Pieczarki\n-  Boczniaki\n-  Rydze\n-  Borowiki\n-  Kanie",
+				"<h1>PRZEPIS NA DŻEMY I MUSY W SŁOIKACH</h1><h2>Pusty słoik napełnić cukrem.</h2><h2>Włożyć do niego świeże produkty tego samego rodzaju i zamknąć.</h2> <br/> <br/><br/> <p>Produkty nadające się do przetworzenia z cukrem:</p> \n-  Śliwki\n-  Gruszki\n-  Jabłka\n-  Dynia"
+			]
+		},
+		"SK_BookcookEN": {
+			"title": "Chef's Cookbook",
+			"links": {
+				"youtube": "",
+				"github": "",
+				"discord": "",
+				"steam": ""
+			},
+			"pages": [
+				"<h1>RECIPE FOR MEAT PRESERVATION</h1> <br/> <h2>Fill an empty can with salt.</h2><h2>Place raw meat of the same type inside in sufficient quantity and seal it.</h2> <br/> <p>Meats suitable for canning:</p> \n-  Mackerel\n-  Carp\n-  Trout\n-  Pollock\n-  Sardines\n-  Rabbit\n-  Chicken\n-  Sheep\n-  Cow\n-  Bear\n-  Wolf\n-  Pig\n-  Goat\n-  Boar\n-  Deer\n-  Reindeer\n-  Fox<p>Additionally, you can add to the salted can:</p>\n-  Potatoes",
+				"<h1>RECIPE FOR FRUIT PRESERVES</h1> <br/> <h2>Fill an empty can with sugar.</h2><h2>Place fresh fruits of the same type inside and seal it.</h2> <br/> <p>Fruits suitable for preserving:</p> \n-  Plums\n-  Pears\n-  Apples\n-  Pumpkin",
+				"<h1>RECIPE FOR PICKLED CANS</h1><h2>Fill an empty can with vinegar.</h2><h2>Place fresh pickling products of the same type inside and seal it.</h2><p>Products suitable for pickling:</p>\n-  Tomatoes\n-  Peppers  <h1>RECIPE FOR JAR PICKLES</h1> <br/> <h2>Fill an empty jar with vinegar.</h2> <h2>Place fresh pickling products of the same type inside and seal it.</h2> <br/> <p>Products suitable for pickling:</p> <br/>\n-  Zucchini\n-  Peppers\n-  Pumpkin\n-  Mushrooms\n-  Oyster mushrooms\n-  Saffron milk caps\n-  Boletus\n-  Parasol mushrooms",
+				"<h1>RECIPE FOR JAMS AND PUREES IN JARS</h1><h2>Fill an empty jar with sugar.</h2><h2>Place fresh products of the same type inside and seal it.</h2> <br/> <br/><br/> <p>Products suitable for processing with sugar:</p> \n-  Plums\n-  Pears\n-  Apples\n-  Pumpkin"
+			]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{553033DE00DE8500}DynamicBook/gui/Next.edds"
+ Author "desktop-us9d7v2"
+ ChangeDate 358118175
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "Next.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

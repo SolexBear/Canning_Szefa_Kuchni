@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{884DC8E3987362F2}DynamicBook/gui/Sites/Discord.edds"
+ Author "desktop-us9d7v2"
+ ChangeDate 788607775
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Discord.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

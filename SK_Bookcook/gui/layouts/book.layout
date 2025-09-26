@@ -1,0 +1,279 @@
+FrameWidgetClass BookFrameGlobal {
+ color 0.2 0.2 0.2 0.8
+ position 0.00056 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ {
+  PanelWidgetClass BookMainPanel {
+   color 0 0 0 1
+   position -0.00881 0.00279
+   size 0.63538 0.99734
+   halign center_ref
+   valign center_ref
+   style DayZDefaultPanelSides
+   {
+    ImageWidgetClass ImageWidget0 {
+     ignorepointer 1
+     position 0.00584 0.00646
+     size 0.98738 0.98486
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{C0964BF1FDE3DE30}SK_Bookcook/gui/BookPage.edds"
+     mode opaque
+     "src alpha" 0
+     "clamp mode" invalid
+     "stretch mode" stretch_w_h
+    }
+    TextWidgetClass book_title {
+     color 0 0 0 1
+     position 0.07492 0.05699
+     size 0.28354 0.04268
+     text "Książka informacyjna"
+     font "gui/fonts/metronbook-bold28"
+     "text color" 1 1 1 1
+     "exact text" 1
+     "size to text h" 0
+     "size to text v" 0
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass page_counter {
+     color 0 0 0 1
+     position 0.733 0.0591
+     size 0.0451 0.0376
+     text "1/10"
+     font "gui/fonts/metronbook-bold22"
+     "text color" 0.8 0.8 0.8 1
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    ButtonWidgetClass btn_prev {
+     color 0 0 0 1
+     position 0.6776 0.0591
+     size 0.0451 0.0376
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 0 0 0 1
+     {
+      ImageWidgetClass ImageWidget2 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03513 0.0689
+       size 0.9233 0.83367
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{553033DE00DE8500}SK_Bookcook/gui/Next.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 1
+       "flip v" 0
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+    ButtonWidgetClass btn_next {
+     color 0 0 0 1
+     position 0.7859 0.0591
+     size 0.0451 0.0376
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 0 0 0 1
+     {
+      ImageWidgetClass ImageWidget1 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03513 0.1088
+       size 0.92327 0.79486
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{553033DE00DE8500}SK_Bookcook/gui/Next.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+    ButtonWidgetClass btn_close {
+     color 0 0 0 1
+     position 0.89818 0.05373
+     size 0.03172 0.04732
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 1 0.2 0.2 1
+     {
+      ImageWidgetClass ImageWidget3 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03835 0.04694
+       size 0.88618 0.93095
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{1F3B24878CB55A6A}SK_Bookcook/gui/CloseBook.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 1
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+    RichTextWidgetClass book_text {
+     color 0 0 0 1
+     position 0.07498 0.10315
+     size 0.85431 0.83388
+     draggable 0
+     style DayZNormal
+     text "Carregando..."
+     font "gui/fonts/metronbook28"
+     "text color" 0 0 0 1
+     "exact text" 1
+     "size to text h" 0
+     "size to text v" 0
+     wrap 1
+    }
+    ButtonWidgetClass btn_steam {
+     color 0 0 0 1
+     position 0.9603 0.90849
+     size 0.03172 0.04732
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 1 0.2 0.2 1
+     {
+      ImageWidgetClass ImageWidget4 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03835 0.04694
+       size 0.88618 0.93095
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{6B5A74E8A2AFD466}SK_Bookcook/gui/Sites/Steam.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 1
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+    ButtonWidgetClass btn_github {
+     color 0 0 0 1
+     position 0.9603 0.85325
+     size 0.03172 0.04732
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 1 0.2 0.2 1
+     {
+      ImageWidgetClass ImageWidget5 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03835 0.04694
+       size 0.88618 0.93095
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{89E817825587CB36}SK_Bookcook/gui/Sites/Github.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 1
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+    ButtonWidgetClass btn_discord {
+     color 0 0 0 1
+     position 0.9603 0.8001
+     size 0.03172 0.04732
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 1 0.2 0.2 1
+     {
+      ImageWidgetClass ImageWidget6 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03835 0.04694
+       size 0.88618 0.93095
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{884DC8E3987362F2}SK_Bookcook/gui/Sites/Discord.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 1
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+    ButtonWidgetClass btn_site {
+     color 0 0 0 1
+     position 0.9603 0.745
+     size 0.03172 0.04732
+     font "gui/fonts/etelka_monospace_condensed10"
+     "text color" 1 0.2 0.2 1
+     {
+      ImageWidgetClass ImageWidget7 {
+       inheritalpha 0
+       ignorepointer 1
+       position 0.03835 0.04694
+       size 0.88618 0.93095
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       scaled 1
+       imageTexture "{DAF7ECA173F8EDF4}SK_Bookcook/gui/Sites/WebSite.edds"
+       mode blend
+       "src alpha" 1
+       "clamp mode" clamp
+       "stretch mode" stretch_w_h
+       "flip u" 0
+       "flip v" 0
+       filter 1
+       nocache 0
+       "Transition width" 0
+      }
+     }
+    }
+   }
+  }
+ }
+}

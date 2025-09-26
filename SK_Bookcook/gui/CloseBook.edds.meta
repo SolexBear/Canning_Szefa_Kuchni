@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{1F3B24878CB55A6A}DynamicBook/gui/CloseBook.edds"
+ Author "desktop-us9d7v2"
+ ChangeDate 1543549727
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "CloseBook.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

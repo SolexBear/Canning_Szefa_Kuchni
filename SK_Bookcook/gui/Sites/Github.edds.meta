@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{89E817825587CB36}DynamicBook/gui/Sites/Github.edds"
+ Author "desktop-us9d7v2"
+ ChangeDate 956379935
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Github.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
