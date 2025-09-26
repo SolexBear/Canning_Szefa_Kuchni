@@ -1,0 +1,6 @@
+//<'SK_ShelvesCans.pbo' properties via Mikero's dos tools, dll version 9.94>
+prefix=SK_ShelvesCans;
+Mikero=DePbo.dll.9.94;
+version=25092014;
+//PboType=Arma Addon;
+//</properties>

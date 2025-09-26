@@ -1,0 +1,77 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: model\data\case_d.rvmat
+//Produced from mikero's Dos Tools Dll version 9.94
+//https://mikero.bytex.digital/Downloads
+//'now' is Fri Sep 26 17:52:04 2025 : 'file' last modified on Sat Sep 20 14:42:49 2025
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {1.0,1.0,1.0,1.0};
+diffuse[] = {1.0,1.0,1.0,1.0};
+forcedDiffuse[] = {0.0,0.0,0.0,0.0};
+emmisive[] = {0.0,0.0,0.0,1.0};
+specular[] = {1.0,1.0,1.0,1.0};
+specularPower = 75.0;
+PixelShaderID = "NormalMapDetailMacroASSpecularDIMap";
+VertexShaderID = "NormalMapAS";
+class Stage1
+{
+	texture = "dz\structures\furniture\cases\case_d\data\case_d_nohq.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class Stage2
+{
+	texture = "#(rgb,8,8,3)color(0.5,0.5,0.5,1)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class Stage3
+{
+	texture = "#(argb,8,8,3)color(0,0,0,0)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class Stage4
+{
+	texture = "#(rgb,8,8,3)color(0.25,0.25,0.25,1)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
+class Stage5
+{
+	texture = "dz\structures\furniture\cases\case_d\data\case_d_smdi.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
